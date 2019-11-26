@@ -1,7 +1,9 @@
 package com.talentfootpoint.talentfootpoint.service;
 
-import com.onething.oneyard.entity.WxUser;
-import com.onething.oneyard.entity.WxUserVo;
+
+
+import com.talentfootpoint.talentfootpoint.entity.WxUser;
+import com.talentfootpoint.talentfootpoint.entity.WxUserVo;
 
 import java.util.List;
 

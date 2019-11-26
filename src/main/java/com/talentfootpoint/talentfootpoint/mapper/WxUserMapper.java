@@ -1,7 +1,8 @@
 package com.talentfootpoint.talentfootpoint.mapper;
 
-import com.onething.oneyard.entity.WxUser;
-import com.onething.oneyard.entity.WxUserVo;
+
+import com.talentfootpoint.talentfootpoint.entity.WxUser;
+import com.talentfootpoint.talentfootpoint.entity.WxUserVo;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

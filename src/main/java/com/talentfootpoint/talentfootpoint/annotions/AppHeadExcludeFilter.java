@@ -1,6 +1,6 @@
 package com.talentfootpoint.talentfootpoint.annotions;
 
-import com.onething.oneyard.entity.Constants;
+import com.talentfootpoint.talentfootpoint.entity.Constants;
 
 import java.lang.annotation.*;
 

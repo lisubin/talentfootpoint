@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!-- <classPathEntry location="/Program Files/IBM/SQLLIB/java/db2java.zip" /> -->
+
+    <!-- 配置注意顺序 -->
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!-- 去掉注释 -->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        <!-- 连接数据库参数 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://47.244.252.165:3306/talentfootpoint"
+                        userId="root" password="root">
+        </jdbcConnection>
+        <!-- 类型转换:数字类型不强制转成BigDecimals -->
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+        <!-- java模型（pojo）类配置 -->
+        <javaModelGenerator targetPackage="com.ijinbu.schedule.model" targetProject="MAVEN">
+            <property name="enableSubPackages" value="false" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+        <!-- mapper.xml参数配置 -->
+        <sqlMapGenerator targetPackage="com.ijinbu.schedule.mybatis"  targetProject="MAVEN">
+            <property name="enableSubPackages" value="false" />
+        </sqlMapGenerator>
+        <!-- dao生成参数配置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ijinbu.schedule.mapper"  targetProject="MAVEN">
+            <property name="enableSubPackages" value="false" />
+        </javaClientGenerator>
+
+        <!-- 数据库表配置 -->
+        <table tableName="bus_daily_data" domainObjectName="BusDailyData"
+               enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false"
+               enableSelectByExample="false"
+               selectByExampleQueryId="false"
+                />
+
+    </context>
+
+</generatorConfiguration>

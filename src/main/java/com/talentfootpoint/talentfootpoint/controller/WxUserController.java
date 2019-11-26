@@ -1,10 +1,11 @@
 package com.talentfootpoint.talentfootpoint.controller;
 
+
 import com.alibaba.fastjson.JSONObject;
-import com.onething.oneyard.entity.WxUserVo;
-import com.onething.oneyard.facade.WxUserFacade;
-import com.onething.oneyard.util.JsonResult;
-import com.onething.oneyard.util.WeiXinUtils;
+import com.talentfootpoint.talentfootpoint.entity.WxUserVo;
+import com.talentfootpoint.talentfootpoint.facade.WxUserFacade;
+import com.talentfootpoint.talentfootpoint.util.JsonResult;
+import com.talentfootpoint.talentfootpoint.util.WeiXinUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

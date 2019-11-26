@@ -1,6 +1,7 @@
 package com.talentfootpoint.talentfootpoint.controller;
 
-import com.onething.oneyard.annotions.AppInterface;
+
+import com.talentfootpoint.talentfootpoint.annotions.AppInterface;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;

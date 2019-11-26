@@ -1,9 +1,10 @@
 package com.talentfootpoint.talentfootpoint.facade.impl;
 
-import com.onething.oneyard.entity.WxUser;
-import com.onething.oneyard.entity.WxUserVo;
-import com.onething.oneyard.facade.WxUserFacade;
-import com.onething.oneyard.service.WxUserService;
+
+import com.talentfootpoint.talentfootpoint.entity.WxUser;
+import com.talentfootpoint.talentfootpoint.entity.WxUserVo;
+import com.talentfootpoint.talentfootpoint.facade.WxUserFacade;
+import com.talentfootpoint.talentfootpoint.service.WxUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,15 +1,16 @@
 package com.talentfootpoint.talentfootpoint.controller;
 
+
 import com.alibaba.fastjson.JSONObject;
-import com.onething.oneyard.annotions.AppHeadExcludeFilter;
-import com.onething.oneyard.annotions.AppInterface;
-import com.onething.oneyard.annotions.AppParameterName;
-import com.onething.oneyard.entity.App;
-import com.onething.oneyard.entity.Constants;
-import com.onething.oneyard.exception.AppException;
-import com.onething.oneyard.util.HttpUtil;
-import com.onething.oneyard.util.JsonResult;
-import com.onething.oneyard.util.SpringContextUtil;
+import com.talentfootpoint.talentfootpoint.annotions.AppHeadExcludeFilter;
+import com.talentfootpoint.talentfootpoint.annotions.AppInterface;
+import com.talentfootpoint.talentfootpoint.annotions.AppParameterName;
+import com.talentfootpoint.talentfootpoint.entity.App;
+import com.talentfootpoint.talentfootpoint.entity.Constants;
+import com.talentfootpoint.talentfootpoint.exception.AppException;
+import com.talentfootpoint.talentfootpoint.util.HttpUtil;
+import com.talentfootpoint.talentfootpoint.util.JsonResult;
+import com.talentfootpoint.talentfootpoint.util.SpringContextUtil;
 import org.apache.commons.lang.ArrayUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
