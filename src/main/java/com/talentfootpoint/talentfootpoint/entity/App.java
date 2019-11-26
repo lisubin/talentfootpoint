@@ -12,14 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.*;
 
-//import com.core.app.entity.AppParent;
-//import com.core.app.entity.AppTeacher;
-//import com.core.app.entity.AppUser;
-//import com.core.jedis.RedisUtils;
-//import com.core.util.UniqueKeyUtil;
-//import com.pipipark.j.system.core.util.string.PPPString;
-//import org.apache.commons.collections.CollectionUtils;
-
 @SuppressWarnings("serial")
 public final class App extends HashMap<String, Object> {
     private final static Logger logger = LoggerFactory.getLogger(App.class);
