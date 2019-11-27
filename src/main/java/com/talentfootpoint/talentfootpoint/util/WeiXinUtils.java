@@ -25,10 +25,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 public class WeiXinUtils {
@@ -188,6 +185,9 @@ public class WeiXinUtils {
     public static CloseableHttpClient createDefault() {
     	return HttpClientBuilder.create().build();
     }
+    public static String getUuId(){
+	return 	UUID.randomUUID().toString();
+	}
 
     //对于公众号 OPENid
     //对于填写会员信息 getUserInfo  获取用户唯一标示
